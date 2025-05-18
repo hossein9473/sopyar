@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
+    name: "پریسا از شیراز",
     designation: "Founder @TailGrids",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "من همیشه فکر می‌کردم فقط معدل یا نمره زبان مهمه برای پذیرش. اما وقتی با تیم اس او پی یار آشنا شدم، فهمیدم چقدر نوشتن یه انگیزه‌نامه قوی می‌تونه مسیر اپلای رو تغییر بده. خیلی صبور بودن، چند بار متن رو باهام بررسی کردن، و انقدر خوب شخصیت و اهداف منو توی متن نشون دادن که تونستم از دانشگاه فرایبورگ آلمان با بورسیه پذیرش بگیرم. واقعاً فکر نمی‌کردم اینقدر حرفه‌ای باشن.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
+    name: "احسان از تهران",
     designation: "Founder @UIdeck",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "من قبلاً خودم یه بار انگیزه‌نامه نوشتم و رد شدم. وقتی امسال تصمیم گرفتم دوباره اقدام کنم، ترجیح دادم کارم رو به یه تیم متخصص بسپارم. اس او پی یار فقط یه متن تحویلم نداد، یه جلسه کامل باهام صحبت کردن، رزومه‌م رو بررسی کردن و حتی با استاد راهنمای قبلی‌م هماهنگ کردن برای توصیه‌نامه. نتیجه؟ پذیرش دکتری از دانشگاه کلگری کانادا با فاند کامل!",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
+    name: "سارا از شهرکرد",
     designation: "Founder @Lineicons",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "از اولش نمی‌دونستم چی باید توی سی‌وی یا توصیه‌نامه بنویسم. خیلی استرس داشتم چون می‌خواستم برای بورسیه ایتالیا اقدام کنم و رقیب زیاد بود. تیم اس او پی یار همه‌چی رو دقیق و منظم جلو برد، برام یه رزومه کامل درست کردن و حتی بهم یاد دادن چطور با استادهای خارجی ایمیل بزنم. الان توی تورین دارم درس می‌خونم و همه‌چی با برنامه‌ای که با کمک اون‌ها چیدیم، پیش رفت.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="نظر شما، افتخار ماست"
+          paragraph="اعتماد صدها دانشجو و متقاضی اپلای، بزرگ‌ترین سرمایه ماست. ما قدردان این اعتماد هستیم."
           center
         />
 

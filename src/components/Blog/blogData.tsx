@@ -3,9 +3,9 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "چطور دانشگاه و کشور مناسب برای اپلای را انتخاب کنم؟",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "یکی از اولین و مهم‌ترین تصمیم‌هایی که هر فرد در مسیر اپلای با آن روبه‌رو می‌شود، انتخاب کشور و دانشگاه مقصد است. این تصمیم نه تنها بر شانس پذیرش، بلکه بر آینده تحصیلی و شغلی شما نیز تأثیر مستقیم دارد.",
     image: "/images/blog/blog-01.jpg",
     author: {
       name: "Samuyl Joshi",
@@ -17,9 +17,9 @@ const blogData: Blog[] = [
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "چه زمانی برای اپلای اقدام کنم؟ بهترین زمان‌بندی اپلای",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "برنامه‌ریزی درست، نیمی از مسیر موفقیت در اپلای است. یکی از پرتکرارترین سؤالات جوانان این است که «کی باید شروع کنم؟",
     image: "/images/blog/blog-02.jpg",
     author: {
       name: "Musharof Chy",
@@ -31,9 +31,9 @@ const blogData: Blog[] = [
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "چطور بورسیه تحصیلی بگیرم؟ از شرایط تا افزایش شانس پذیرش رایگان",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "هزینه‌های بالا مانع بزرگی برای بسیاری از دانشجویان ایرانی است، اما گرفتن بورسیه، این مسیر را هموار می‌کند.",
     image: "/images/blog/blog-03.jpg",
     author: {
       name: "Lethium Deo",

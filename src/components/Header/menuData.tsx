@@ -20,9 +20,9 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
-    id: 3,
+    id: 55,
     title: "خدمات",
-    path: "/contact",
+    path: "/service",
     newTab: false,
   },
   {
