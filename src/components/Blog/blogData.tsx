@@ -6,7 +6,7 @@ const blogData: Blog[] = [
     title: "چطور دانشگاه و کشور مناسب برای اپلای را انتخاب کنم؟",
     paragraph:
       "یکی از اولین و مهم‌ترین تصمیم‌هایی که هر فرد در مسیر اپلای با آن روبه‌رو می‌شود، انتخاب کشور و دانشگاه مقصد است. این تصمیم نه تنها بر شانس پذیرش، بلکه بر آینده تحصیلی و شغلی شما نیز تأثیر مستقیم دارد.",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/article1.jpg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
@@ -20,7 +20,7 @@ const blogData: Blog[] = [
     title: "چه زمانی برای اپلای اقدام کنم؟ بهترین زمان‌بندی اپلای",
     paragraph:
       "برنامه‌ریزی درست، نیمی از مسیر موفقیت در اپلای است. یکی از پرتکرارترین سؤالات جوانان این است که «کی باید شروع کنم؟",
-    image: "/images/blog/blog-02.jpg",
+    image: "/images/blog/article2.jpg",
     author: {
       name: "Musharof Chy",
       image: "/images/blog/author-02.png",
@@ -34,7 +34,7 @@ const blogData: Blog[] = [
     title: "چطور بورسیه تحصیلی بگیرم؟ از شرایط تا افزایش شانس پذیرش رایگان",
     paragraph:
       "هزینه‌های بالا مانع بزرگی برای بسیاری از دانشجویان ایرانی است، اما گرفتن بورسیه، این مسیر را هموار می‌کند.",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/blog/article3.jpg",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",
