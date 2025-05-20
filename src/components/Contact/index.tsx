@@ -14,14 +14,14 @@ const Contact = () => {
                 ثبت درخواست از طریق تلگرام
               </h2>
               <p className="mb-8 text-base font-medium text-body-color dark:text-body-color-dark leading-relaxed">
-                برای ثبت درخواست کافی‌ست از طریق دکمه‌ی زیر وارد تلگرام شوید و یک پیام شامل موارد زیر برای ما ارسال کنید. پیام شما حداکثر پس از یک روز کاری پاسخ داده خواهد شد.:
+                برای ثبت درخواست کافی‌ست از طریق دکمه‌ی زیر وارد تلگرام شوید و یک پیام شامل موارد زیر برای ما ارسال کنید. پیام شما حداکثر پس از یک روز کاری پاسخ داده خواهد شد:
                 <br />
                 <br />✓ نام و نام خانوادگی
                 <br />✓ آخرین مقطع و رشته‌ی تحصیلی
                 <br />✓ شرح خلاصه‌ای از درخواست، برای مثال شامل تعداد انگیزه‌نامه‌ها و رزومه‌ها
               </p>
               <a
-                href="https://t.me/YOUR_TELEGRAM_ID"
+                href="https://t.me/SOP_Yar"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-500 to-blue-700 px-8 py-3 text-white text-base font-semibold shadow-lg transition duration-300 hover:from-blue-600 hover:to-blue-800 hover:shadow-xl"
