@@ -29,7 +29,7 @@ const blogData: Blog[] = [
         </ul>
         
         <h3 class="text-2xl font-bold mb-4">راهنمای انتخاب دانشگاه</h3>
-        <div class="bg-gray-50 p-6 rounded-lg mb-6">
+        <div class="bg-gray-50 p-6 dark:bg-gray-800 rounded-lg mb-6">
           <h4 class="font-bold mb-2">رتبه‌بندی دانشگاه‌ها:</h4>
           <p>استفاده از سیستم‌های رتبه‌بندی معتبر مانند QS، Times و Shanghai</p>
           
@@ -50,8 +50,8 @@ const blogData: Blog[] = [
           <li>مشورت با مشاوران تحصیلی معتبر</li>
         </ol>
         
-        <div class="bg-blue-50 p-6 rounded-lg">
-          <h4 class="font-bold text-blue-800 mb-2">نکته طلایی:</h4>
+        <div class="bg-blue-50 dark:bg-gray-800 p-6 rounded-lg">
+          <h4 class="font-bold text-blue-800 mb-2 dark:text-stone-100">نکته طلایی:</h4>
           <p>بهترین دانشگاه برای شما لزوماً معروفترین دانشگاه نیست، بلکه دانشگاهی است که بیشترین تناسب را با اهداف، توانایی‌ها و شرایط مالی شما دارد.</p>
         </div>
       </section>
@@ -78,9 +78,9 @@ const blogData: Blog[] = [
         
         <h3 class="text-2xl font-bold mb-4">جدول زمان‌بندی پیشنهادی</h3>
         <div class="overflow-x-auto mb-6">
-          <table class="min-w-full bg-white border border-gray-200">
+          <table class="min-w-full bg-white border dark:bg-gray-800 border-gray-200">
             <thead>
-              <tr class="bg-gray-100">
+              <tr class="bg-gray-100 dark:bg-gray-800">
                 <th class="py-2 px-4 border-b">فصل پذیرش</th>
                 <th class="py-2 px-4 border-b">مهلت اقدام</th>
                 <th class="py-2 px-4 border-b">کارهای ضروری</th>
@@ -88,14 +88,14 @@ const blogData: Blog[] = [
             </thead>
             <tbody>
               <tr>
-                <td class="py-2 px-4 border-b">پاییز (سپتامبر)</td>
-                <td class="py-2 px-4 border-b">دی تا اسفند سال قبل</td>
-                <td class="py-2 px-4 border-b">آماده‌سازی مدارک، تماس با اساتید</td>
+                <td class="py-2 px-4 border-b text-center">پاییز (سپتامبر)</td>
+                <td class="py-2 px-4 border-b text-center">دی تا اسفند سال قبل</td>
+                <td class="py-2 px-4 border-b text-center">آماده‌سازی مدارک، تماس با اساتید</td>
               </tr>
               <tr>
-                <td class="py-2 px-4 border-b">بهار (ژانویه)</td>
-                <td class="py-2 px-4 border-b">مرداد تا مهر همان سال</td>
-                <td class="py-2 px-4 border-b">تکمیل اپلیکیشن، ارسال مدارک</td>
+                <td class="py-2 px-4 border-b text-center">بهار (ژانویه)</td>
+                <td class="py-2 px-4 border-b text-center">مرداد تا مهر همان سال</td>
+                <td class="py-2 px-4 border-b text-center">تکمیل اپلیکیشن، ارسال مدارک</td>
               </tr>
             </tbody>
           </table>
@@ -119,17 +119,17 @@ const blogData: Blog[] = [
         
         <h3 class="text-2xl font-bold mb-4">نکات کلیدی</h3>
         <div class="grid md:grid-cols-2 gap-4 mb-6">
-          <div class="bg-white p-4 shadow rounded-lg">
+          <div class="bg-white dark:bg-gray-800 p-4 shadow rounded-lg">
             <h4 class="font-bold mb-2">زبان انگلیسی:</h4>
             <p>حداقل 6 ماه قبل از ددلاین‌ها مدرک زبان خود را دریافت کنید.</p>
           </div>
-          <div class="bg-white p-4 shadow rounded-lg">
+          <div class="bg-white dark:bg-gray-800 p-4 shadow rounded-lg">
             <h4 class="font-bold mb-2">مدارک تحصیلی:</h4>
             <p>ترجمه رسمی مدارک ممکن است زمان‌بر باشد، زودتر اقدام کنید.</p>
           </div>
         </div>
         
-        <div class="bg-yellow-50 p-6 rounded-lg">
+        <div class="bg-yellow-50 dark:bg-gray-800 p-6 rounded-lg">
           <h4 class="font-bold text-yellow-800 mb-2">هشدار:</h4>
           <p>ددلاین برخی دانشگاه‌ها برای بورسیه‌های خاص ممکن است زودتر از مهلت عمومی پذیرش باشد. همیشه وبسایت دانشگاه را دقیق بررسی کنید.</p>
         </div>
@@ -178,7 +178,7 @@ const blogData: Blog[] = [
         </ul>
         
         <h3 class="text-2xl font-bold mb-4">راهکارهای افزایش شانس</h3>
-        <div class="bg-gray-50 p-6 rounded-lg mb-6">
+        <div class="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg mb-6">
           <h4 class="font-bold mb-2">استراتژی‌های کاربردی:</h4>
           <ol class="list-decimal pr-6 space-y-2">
             <li>ارتباط مستقیم با اساتید (Email Outreach)</li>
@@ -191,21 +191,21 @@ const blogData: Blog[] = [
         <h3 class="text-2xl font-bold mb-4">منابع یافتن بورسیه</h3>
         <div class="space-y-4">
           <div class="flex items-start">
-            <span class="bg-blue-100 text-blue-800 p-2 rounded mr-3">1</span>
+            <span class="bg-blue-100 dark:bg-gray-800 text-blue-800 p-2 rounded mr-3">1</span>
             <div>
               <h4 class="font-bold">وبسایت دانشگاه‌ها:</h4>
               <p>بخش Scholarships یا Financial Aid</p>
             </div>
           </div>
           <div class="flex items-start">
-            <span class="bg-green-100 text-green-800 p-2 rounded mr-3">2</span>
+            <span class="bg-green-100 dark:bg-gray-800 text-green-800 p-2 rounded mr-3">2</span>
             <div>
               <h4 class="font-bold">سازمان‌های بین‌المللی:</h4>
               <p>فولبرایت، DAAD، Chevening و ...</p>
             </div>
           </div>
           <div class="flex items-start">
-            <span class="bg-purple-100 text-purple-800 p-2 rounded mr-3">3</span>
+            <span class="bg-purple-100 dark:bg-gray-800 text-purple-800 p-2 rounded mr-3">3</span>
             <div>
               <h4 class="font-bold">وبسایت‌های تخصصی:</h4>
               <p>Scholars4dev, ScholarshipPortal</p>
@@ -213,7 +213,7 @@ const blogData: Blog[] = [
           </div>
         </div>
         
-        <div class="bg-green-50 p-6 rounded-lg mt-6">
+        <div class="bg-green-50 dark:bg-gray-800 p-6 rounded-lg mt-6">
           <h4 class="font-bold text-green-800 mb-2">تجربه موفق:</h4>
           <p>«با معدل 16.5 و آیلتس 6.5 توانستم بورسیه کامل مقطع دکتری در آلمان بگیرم. کلید موفقیت من ارتباط مستقیم با استاد و تطابق موضوع تحقیق با نیازهای آزمایشگاه او بود.» - علی، دانشجوی دکتری مهندسی برق</p>
         </div>
