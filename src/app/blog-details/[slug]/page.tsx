@@ -15,10 +15,14 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: BlogDetailsProps) {
-  const blog = blogData.find((blog) => blog.slug === params.slug);
-  
+  const awaitedParams = await params;
+  const blog = blogData.find((blog) => blog.slug === awaitedParams.slug);
+
   if (!blog) {
-    return notFound();
+    return {
+      title: "Not Found",
+      description: "Blog not found",
+    };
   }
 
   return {
@@ -28,7 +32,8 @@ export async function generateMetadata({ params }: BlogDetailsProps) {
 }
 
 export default async function BlogDetailsPage({ params }: BlogDetailsProps) {
-  const blog = blogData.find((blog) => blog.slug === params.slug);
+  const awaitedParams = await params;
+  const blog = blogData.find((blog) => blog.slug === awaitedParams.slug);
 
   if (!blog) {
     return notFound();
@@ -44,7 +49,7 @@ export default async function BlogDetailsPage({ params }: BlogDetailsProps) {
                 <h1 className="mb-8 text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
                   {blog.title}
                 </h1>
-                
+
                 <div className="mb-10 w-full overflow-hidden rounded-lg">
                   <div className="relative aspect-[37/22] w-full">
                     <Image
@@ -60,7 +65,7 @@ export default async function BlogDetailsPage({ params }: BlogDetailsProps) {
                   {blog.paragraph}
                 </p>
 
-                <div 
+                <div
                   className="prose max-w-none prose-p:text-gray-600 prose-headings:text-gray-900 prose-li:text-gray-600 prose-ul:pr-6 prose-ol:pr-6"
                   dangerouslySetInnerHTML={{ __html: blog.content }}
                 />
