@@ -4,8 +4,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
+  title: "خدمات",
+  description: "در این صفحه‌ می‌توانید قیمت نگارش انگیزه نامه، رزومه و توصیه نامه را مشاهده کنید",
   // other metadata
 };
 
@@ -13,8 +13,8 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="خدمات"
+        description=" تحویل انگیزه‌نامه، رزومه و توصیه‌نامه‌ها به صورت ۱۴ روزه و ۷ روزه (فوری) ارائه می‌گردد."
       />
         <Pricing />
     </>

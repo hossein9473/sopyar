@@ -11,8 +11,8 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="قیمت‌گذاری شفاف و مناسب"
+          paragraph="مفتخریم که علاوه بر بهترین کیفیت متن، مناسب‌ترین قیمت‌ها متعلق به تیم اس او پی یار است"
           center
           width="665px"
         />
@@ -27,7 +27,7 @@ const Pricing = () => {
                   : "text-dark dark:text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
-              Monthly
+              خدمات ۱۴ روزه 
             </span>
             <div
               onClick={() => setIsMonthly(!isMonthly)}
@@ -52,50 +52,50 @@ const Pricing = () => {
                   : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
-              Yearly
+              خدمات ۷ روزه
             </span>
           </div>
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="توصیه‌نامه"
+            price={isMonthly ? "۷۰۰" : "۱۲۰۰"}
+            duration={isMonthly ? "" : "فوری"}
+            subtitle="Letter of Recommendation (LOR)"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="تحویل دقیق در زمان" status="active" />
+            <OfferList text="امکان درخواست ویرایش" status="active" />
+            <OfferList text="نگارش کاملاً شخصی‌سازی‌شده" status="active" />
+            <OfferList text="استفاده از استانداردهای بین‌المللی و زبان آکادمیک حرفه‌ای" status="active" />
+            <OfferList text="همکاری مستقیم با نویسنده" status="active" />
+            <OfferList text="مشاوره رایگان برای انتخاب ساختار و محتوای بهتر" status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="رزومه"
+            price={isMonthly ? "۱۲۰۰" : "۱۸۰۰"}
+            duration={isMonthly ? "" : "فوری"}
+            subtitle="Curriculum Vitae (CV) / Resume"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="تحویل دقیق در زمان" status="active" />
+            <OfferList text="امکان درخواست ویرایش" status="active" />
+            <OfferList text="نگارش کاملاً شخصی‌سازی‌شده" status="active" />
+            <OfferList text="استفاده از استانداردهای بین‌المللی و زبان آکادمیک حرفه‌ای" status="active" />
+            <OfferList text="همکاری مستقیم با نویسنده" status="active" />
+            <OfferList text="مشاوره رایگان برای انتخاب ساختار و محتوای بهتر" status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="انگیزه‌نامه"
+            price={isMonthly ? "۱۸۰۰" : "۲۸۰۰"}
+            duration={isMonthly ? "" : "فوری"}
+            subtitle="Statement of Purpose (SOP) / Motivation Letter"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="تحویل دقیق در زمان" status="active" />
+            <OfferList text="امکان درخواست ویرایش" status="active" />
+            <OfferList text="نگارش کاملاً شخصی‌سازی‌شده" status="active" />
+            <OfferList text="استفاده از استانداردهای بین‌المللی و زبان آکادمیک حرفه‌ای" status="active" />
+            <OfferList text="همکاری مستقیم با نویسنده" status="active" />
+            <OfferList text="مشاوره رایگان برای انتخاب ساختار و محتوای بهتر" status="active" />
           </PricingBox>
         </div>
       </div>

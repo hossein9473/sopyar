@@ -11,15 +11,15 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-              <h1 className="mb-5 text-2xl font-bold leading-snug text-black dark:text-white sm:text-3xl sm:leading-snug md:text-4xl md:leading-snug">
-                گام اول برای مهاجرت تحصیلی، یک متن حرفه‌ای است
-              </h1>
-              <p dir="rtl" className="mb-12 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                ما در نوشتن انگیزه‌نامه 
-                <span dir="ltr"> (SOP) </span>، رزومه تحصیلی 
-                <span dir="ltr"> (CV) </span> و توصیه‌نامه‌های تخصصی 
-                <span dir="ltr"> (LOR) </span> برای پذیرش در بهترین دانشگاه‌های بین‌المللی همراه شما هستیم. 
-              </p>
+                <h1 className="mb-5 text-2xl font-bold leading-snug text-black dark:text-white sm:text-3xl sm:leading-snug md:text-4xl md:leading-snug">
+                  گام اول برای مهاجرت تحصیلی، یک متن حرفه‌ای است
+                </h1>
+                <p dir="rtl" className="mb-12 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                  ما در نوشتن انگیزه‌نامه 
+                  <span dir="ltr"> (SOP) </span>، رزومه تحصیلی 
+                  <span dir="ltr"> (CV) </span> و توصیه‌نامه‌های تخصصی 
+                  <span dir="ltr"> (LOR) </span> برای پذیرش در بهترین دانشگاه‌های بین‌المللی همراه شما هستیم. 
+                </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/contact"

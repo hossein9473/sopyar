@@ -18,7 +18,7 @@ const OfferList = ({
   status: "active" | "inactive";
 }) => {
   return (
-    <div className="mb-3 flex items-center">
+    <div dir = 'rtl' className="mb-3 flex items-center">
       <span className="bg-primary/10 mr-3 flex h-[18px] w-full max-w-[18px] items-center justify-center rounded-full text-white">
         {status === "active" ? checkIcon : crossIcon}
       </span>
