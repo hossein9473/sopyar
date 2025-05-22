@@ -5,8 +5,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Page for Startup Nextjs Template",
+  title: "مقاله‌های مهاجرت تحصیلی",
+  description: "در این صفحه سعی کردیم تا همه‌ی ابعاد مهاجرت تحصیلی را پوشش دهیم",
   // other metadata
 };
 
@@ -14,13 +14,13 @@ const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="مقاله‌ها"
+        description="در این صفحه سعی می‌کنیم تا به صورت روزانه بخش‌های بیشتری از مسیر مهاجرت را روشن کنیم."
       />
 
       <section className="pt-[120px] pb-[120px]">
         <div className="container">
-          <div className="-mx-4 flex flex-wrap justify-center">
+          <div dir ='rtl' className="-mx-4 flex flex-wrap justify-center">
             {blogData.map((blog) => (
               <div
                 key={blog.id}
@@ -31,7 +31,7 @@ const Blog = () => {
             ))}
           </div>
 
-          <div className="-mx-4 flex flex-wrap" data-wow-delay=".15s">
+          {/* <div className="-mx-4 flex flex-wrap" data-wow-delay=".15s">
             <div className="w-full px-4">
               <ul className="flex items-center justify-center pt-8">
                 <li className="mx-1">
@@ -89,7 +89,7 @@ const Blog = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
