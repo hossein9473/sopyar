@@ -3,9 +3,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 
 interface BlogDetailsProps {
-  params: {
-    slug: string;
-  };
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
