@@ -89,13 +89,13 @@ const blogData: Blog[] = [
             <tbody>
               <tr>
                 <td class="py-2 px-4 border-b text-center">پاییز (سپتامبر)</td>
-                <td class="py-2 px-4 border-b text-center">دی تا اسفند سال قبل</td>
-                <td class="py-2 px-4 border-b text-center">آماده‌سازی مدارک، تماس با اساتید</td>
+                <td class="py-2 px-4 border-b text-center">مهر تا فروردین</td>
+                <td class="py-2 px-4 border-b text-center">آماده‌سازی مدارک، تماس با اساتید، تکمیل اپلیکیشن و ارسال مدارک</td>
               </tr>
               <tr>
                 <td class="py-2 px-4 border-b text-center">بهار (ژانویه)</td>
-                <td class="py-2 px-4 border-b text-center">مرداد تا مهر همان سال</td>
-                <td class="py-2 px-4 border-b text-center">تکمیل اپلیکیشن، ارسال مدارک</td>
+                <td class="py-2 px-4 border-b text-center">اردیبهشت تا مهر</td>
+                <td class="py-2 px-4 border-b text-center">آماده‌سازی مدارک، تماس با اساتید، تکمیل اپلیکیشن و ارسال مدارک</td>
               </tr>
             </tbody>
           </table>
