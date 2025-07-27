@@ -318,7 +318,7 @@ const blogData: Blog[] = [
   {
     id: 6,
     title: "تفاوت SOP و Cover Letter چیست؟",
-    slug: "article4",
+    slug: "article6",
     paragraph:
       "در مسیر اپلای، دو سند مهم یعنی SOP و Cover Letter ممکن است مشابه به نظر برسند، اما اهداف، ساختار و سبک نگارش متفاوتی دارند.",
     image: "/images/blog/article6.jpg",
