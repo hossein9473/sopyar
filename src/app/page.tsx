@@ -11,6 +11,7 @@ import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 import FAQ from "@/components/FAQ";
+import CoverImage from "@/components/Common/CoverImage";
 
 export const metadata: Metadata = {
   title: "نگارش حرفه‌ای SOP, CV, LOR",
@@ -23,6 +24,7 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+      <CoverImage />
       <Features />
       {/* <Video />
       <Brands />
