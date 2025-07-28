@@ -4,8 +4,8 @@ const Contact = () => {
   return (
     <section id="contact" className="overflow-hidden pb-6 md:pb-10 lg:pb-14">
       <div className="container">
-        <div className="-mx-4 flex flex-wrap justify-center">
-          <div dir="rtl" className="w-full px-4 lg:w-7/12 xl:w-8/12">
+        <div>
+          <div dir="rtl" className="w-full">
             <div
               className="mt-10 mb-12 rounded-2xl bg-white px-8 py-11 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
               data-wow-delay=".15s"
