@@ -1,6 +1,14 @@
+"use client";
+
 import { Testimonial } from "@/types/testimonial";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const testimonialData: Testimonial[] = [
   {
@@ -30,6 +38,36 @@ const testimonialData: Testimonial[] = [
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
+
+
+
+  {
+    id: 4,
+    name: "روژین از گرگان - ۲۰۲۵",
+    designation: "Founder @Lineicons",
+    content:
+      "من همیشه از نوشتن انگیزه‌نامه می‌ترسیدم چون هیچ‌وقت نمی‌دونستم باید از کجا شروع کنم و چی بنویسم که قانع‌کننده باشه. یکی از دوستانم تیم اس‌او‌پی یار رو بهم معرفی کرد و راستش اولش شک داشتم، ولی وقتی اولین پیش‌نویس متن رو دیدم واقعاً شوکه شدم! انقدر حرفه‌ای بود که حتی اساتیدم هم از خوندنش تعریف کردن. به کمکشون از دانشگاه وین پذیرش گرفتم و الان که به عقب نگاه می‌کنم، مطمئنم بدون کمکشون این مسیر اینقدر سریع و راحت پیش نمی‌رفت.",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 5,
+    name: "فرناز از تهران - ۲۰۲۵",
+    designation: "Founder @Lineicons",
+    content:
+      "من بعد از چند بار رد شدن توی اپلای، دیگه انگیزه‌ای برام نمونده بود. هر بار فکر می‌کردم شاید نمره زبان یا سابقه کاری‌ام مشکل داره ولی وقتی با تیم اس‌او‌پی یار صحبت کردم، تازه فهمیدم که چقدر ارائه درست مدارک مهمه. اونا فقط برای من یه انگیزه‌نامه ننوشتن، بلکه کمک کردن همه‌ی مدارکم رو به شکل درست و حرفه‌ای بازنویسی کنم. نتیجه؟ پذیرش از دانشگاه آمستردام با فاند کامل. هنوز هم باورم نمی‌شه.",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 6,
+    name: "محمدحسین از شیراز - ۲۰۲۵",
+    designation: "Founder @Lineicons",
+    content:
+      "همیشه فکر می‌کردم می‌تونم مدارکم رو خودم بهتر از هر کسی بنویسم، اما بعد از کلی وقت گذاشتن و بی‌نتیجه بودن، به توصیه‌ی یکی از همکارام با تیم اس‌او‌پی یار تماس گرفتم. چیزی که ازشون گرفتم فقط یه متن نبود، یه مسیر کامل بود. همه‌چی دقیق، تمیز و حرفه‌ای بود. از اصلاح رزومه تا نوشتن توصیه‌نامه‌ها. نتیجه‌ش این شد که تونستم از پلی‌تکنیک میلان پذیرش بگیرم و الان دارم همونجایی درس می‌خونم که همیشه آرزوشو داشتم.",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
 ];
 
 const Testimonials = () => {
@@ -42,12 +80,30 @@ const Testimonials = () => {
           center
         />
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          {testimonialData.map((testimonial) => (
-            <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
-          ))}
+        <div dir="rtl">
+          <Swiper
+            modules={[Navigation, Pagination]}
+            spaceBetween={20}
+            slidesPerView={1.5}
+            navigation
+            pagination={{ clickable: true }}
+            breakpoints={{
+              768: { slidesPerView: 2.5 },
+              1024: { slidesPerView: 3.5 },
+            }}
+          >
+            {testimonialData.map((testimonial) => (
+              <SwiperSlide key={testimonial.id} className="flex h-auto">
+                <div className="flex flex-col w-full !h-full">
+                  <SingleTestimonial testimonial={testimonial} />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
+
+      {/* Background SVGs */}
       <div className="absolute right-0 top-5 z-[-1]">
         <svg
           width="238"

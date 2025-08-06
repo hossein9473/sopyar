@@ -133,3 +133,8 @@ layer(base);
     @apply inline-flex;
   }
 }
+
+
+.swiper-slide {
+  height: auto !important;
+}

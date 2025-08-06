@@ -1,6 +1,14 @@
+"use client";
+
 import SectionTitle from "../Common/SectionTitle";
 import SingleBlog from "./SingleBlog";
 import blogData from "./blogData";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const Blog = () => {
   return (
@@ -15,12 +23,27 @@ const Blog = () => {
           center
         />
 
-        <div dir ='rtl' className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
-          {blogData.map((blog) => (
-            <div key={blog.id} className="w-full">
-              <SingleBlog blog={blog} />
-            </div>
-          ))}
+        <div dir="rtl">
+          <Swiper
+            modules={[Navigation, Pagination]}
+            spaceBetween={20}
+            slidesPerView={1.5}
+            navigation
+            pagination={{ clickable: true }}
+            breakpoints={{
+              768: { slidesPerView: 2.5 },
+              1024: { slidesPerView: 3.5 },
+            }}
+          >
+            {blogData.map((blog) => (
+              <SwiperSlide key={blog.id} className="flex h-auto">
+                {/* Ensures equal height for all slides */}
+                <div className="flex flex-col w-full h-full">
+                  <SingleBlog blog={blog} />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </section>

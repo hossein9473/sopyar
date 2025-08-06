@@ -6,7 +6,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
   const { title, slug, image, paragraph, author, tags, publishDate } = blog;
   return (
     <>
-      <div className="group shadow-one hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark relative overflow-hidden rounded-xs bg-white duration-300">
+      <div className="h-full group shadow-one hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark relative overflow-hidden rounded-xs bg-white duration-300">
         <Link
           href={`/blog-details/${slug}`}
           className="relative block aspect-37/22 w-full"
