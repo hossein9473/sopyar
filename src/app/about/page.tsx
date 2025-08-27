@@ -18,7 +18,7 @@ const AboutPage = () => {
         description="ما در کجای مسیر ایستاده‌ایم؟"
       />
       <AboutSectionOne />
-      <AboutSectionTwo />
+      {/* <AboutSectionTwo /> */}
     </>
   );
 };
