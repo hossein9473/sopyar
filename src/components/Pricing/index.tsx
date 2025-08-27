@@ -8,11 +8,11 @@ const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
 
   return (
-    <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section id="pricing" className="relative z-10 py-7 md:py-7 lg:py-7">
       <div className="container">
         <SectionTitle
           title="قیمت‌گذاری شفاف و مناسب"
-          paragraph="مفتخریم که علاوه بر بهترین کیفیت متن، مناسب‌ترین قیمت‌ها متعلق به تیم اس او پی یار است"
+          paragraph="مفتخریم که علاوه بر بهترین کیفیت متن، مناسب‌ترین قیمت‌ها متعلق به تیم اس‌او‌پی یار است"
           center
           width="665px"
         />
@@ -89,6 +89,19 @@ const Pricing = () => {
             price={isMonthly ? "۱۸۰۰" : "۲۸۰۰"}
             duration={isMonthly ? "" : "فوری"}
             subtitle="Statement of Purpose (SOP) / Motivation Letter"
+          >
+            <OfferList text="تحویل دقیق در زمان" status="active" />
+            <OfferList text="امکان درخواست ویرایش" status="active" />
+            <OfferList text="نگارش کاملاً شخصی‌سازی‌شده" status="active" />
+            <OfferList text="استفاده از استانداردهای بین‌المللی و زبان آکادمیک حرفه‌ای" status="active" />
+            <OfferList text="همکاری مستقیم با نویسنده" status="active" />
+            <OfferList text="مشاوره رایگان برای انتخاب ساختار و محتوای بهتر" status="active" />
+          </PricingBox>
+          <PricingBox
+            packageName="برنامه تحصیلی (کانادا-آلمان)"
+            price={isMonthly ? "۲۳۰۰" : "۳۵۰۰"}
+            duration={isMonthly ? "" : "فوری"}
+            subtitle="Study Plan"
           >
             <OfferList text="تحویل دقیق در زمان" status="active" />
             <OfferList text="امکان درخواست ویرایش" status="active" />
